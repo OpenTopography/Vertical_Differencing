@@ -1,5 +1,7 @@
+Vertical differencing in OpenTopography
+
 Author: Chelsea Scott
 
-This is the code for the vertical differencing.
+At its core, vertical differencing utilizes gdal_calc. https://gdal.org/programs/gdal_calc.html
 
 gdal_calc -A compare.tif -B reference.tif --outfile=diff.tif --calc="B-A" --NoDataValue=-9999
