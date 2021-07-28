@@ -7,4 +7,4 @@ authors:
 title: "On-Demand vertical differencing implemented in OpenTopography"
 version: 1.1.0
 date-released: 2020-08-06
-url: "https://github.com/OpenTopography/Vertical_Differencing"
+repository_code: "https://github.com/OpenTopography/Vertical_Differencing"
